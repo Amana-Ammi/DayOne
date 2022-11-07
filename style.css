@@ -1,6 +1,13 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   height: 125vh;
+  padding: 30px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(93, 87, 87),
+    rgb(170, 165, 165),
+    white
+  );
 }
 
 .nav {
@@ -9,7 +16,13 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(to bottom right, rgb(238, 54, 54), rgb(203, 73, 73), white);
+  display: flex;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(93, 87, 87),
+    rgb(170, 165, 165),
+    white
+  );
 }
 
 ul {
